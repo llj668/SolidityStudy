@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "_byte",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "_byte32",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/知识点/2-数据类型/1-值类型/4-字节数组.sol": "ByteTest"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/知识点/2-数据类型/1-值类型/4-字节数组.sol": {
+			"keccak256": "0x6a090ca19b52f801950151755d47c5439fc99f54ce84519a50f62ed54645a907",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe2f32d6556c8740eafe0759c0ba8e4c607ac4ab222cc2a359e29a0fddf2e091",
+				"dweb:/ipfs/QmeFD9Y2L3vmr2NqnXX6Z3qEoTsj6NWP9gXaMr7zZEtsmh"
+			]
+		}
+	},
+	"version": 1
+}

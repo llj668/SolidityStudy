@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSomethingInternal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "incrementFromChild",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/知识点/3-函数/2-internalFunc.sol": "Child"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/知识点/3-函数/2-internalFunc.sol": {
+			"keccak256": "0x66c1894887907abec2612b1567aa3085b22941efbc4a23259de6df794bdd1007",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cdecdd4017ac72d592e33a33c30d6cb0f4ec5a3b0b2a89344922b993061a402e",
+				"dweb:/ipfs/QmTCy4FR6wnz3ibEWowLMyJgizWUyNYeX2NEriTgESZCkk"
+			]
+		}
+	},
+	"version": 1
+}

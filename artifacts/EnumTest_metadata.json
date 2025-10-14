@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "choice",
+				"outputs": [
+					{
+						"internalType": "enum EnumTest.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "choice1",
+				"outputs": [
+					{
+						"internalType": "enum EnumTest.ActionChoices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum EnumTest.ActionChoices",
+						"name": "_choice",
+						"type": "uint8"
+					}
+				],
+				"name": "enumToUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/知识点/2-数据类型/1-值类型/5-枚举.sol": "EnumTest"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/知识点/2-数据类型/1-值类型/5-枚举.sol": {
+			"keccak256": "0xdd5a7d316590d8a4accd0d20bc348bea200298b8060adccdabd69f3da24d0cdf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfb2cf597326cae87872d9913118565bbb967064749531915e85897c05846ddc",
+				"dweb:/ipfs/QmbXXo6471d7NF7Qpv7cN3Y3hc979vJgDEsQZ2U3JVkmd1"
+			]
+		}
+	},
+	"version": 1
+}
