@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/知识点/2-数据类型/2-引用类型/1-数组/1-ArrayDemo.sol": "ArrayTest"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/知识点/2-数据类型/2-引用类型/1-数组/1-ArrayDemo.sol": {
+			"keccak256": "0x2febe841fceaf9ecad6e0cd40548868606079cbf22a78dbe836a23fadbfc96d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7509e23de9975c6047d08e0c8cd28eb7db518b433ff964b47124499179028b8",
+				"dweb:/ipfs/QmS8qMyG9naZN9jycxHcZD7v4HCp32hsNvv8m72qqdpm3w"
+			]
+		}
+	},
+	"version": 1
+}

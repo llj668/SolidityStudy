@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "example",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/知识点/2-数据类型/2-引用类型/1-数组/2-数组初始化.sol": "ArrayInitial"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/知识点/2-数据类型/2-引用类型/1-数组/2-数组初始化.sol": {
+			"keccak256": "0xc050608b10110583694a0ee2271af60c6d1c87c7fe3e6a09d9ea192314defb7a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d753cbee54a05b96e74b933b228dc2f55a7e0c61f0a19be4163ea4c10f8bb66",
+				"dweb:/ipfs/QmaQiwXTQoTy5ath6FUBc7oAQcx7eTKopk5PZciLPCuNtg"
+			]
+		}
+	},
+	"version": 1
+}

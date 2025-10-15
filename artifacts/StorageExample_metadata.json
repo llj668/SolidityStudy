@@ -7,27 +7,38 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "minusCall",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
 				"inputs": [],
-				"name": "minusPayable",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "balance",
-						"type": "uint256"
-					}
-				],
+				"name": "deposit",
+				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "number",
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "userBalances",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -52,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/知识点/3-函数/4-payableFunc.sol": "payableFunc"
+			"contracts/知识点/4-数据位置/1-storage.sol": "StorageExample"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -66,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/知识点/3-函数/4-payableFunc.sol": {
-			"keccak256": "0xe59d09b150114c92b6655204d111cbbf779f58502b016918df099581c43d5391",
+		"contracts/知识点/4-数据位置/1-storage.sol": {
+			"keccak256": "0xa75eca5e4eff176f84a78a89df36d193f8006edc1a251d06d097e9a3181ef406",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f79841a5bb2268a9ffad70c04bee5db8d7f2bc2e77acbe19e824e27d969df94",
-				"dweb:/ipfs/QmTpUXpXggMkDZtfk7BMX4ZQ1JRs2vKus5UDJXpUA8NiBW"
+				"bzz-raw://ee775ace4281120280014a8bb54a9cf53bf32cb379d34b58700b821274634eab",
+				"dweb:/ipfs/Qma1UgAvQWqUhu8enxAP7nNDdo4PGj5ock4AGZoSH7mimr"
 			]
 		}
 	},
