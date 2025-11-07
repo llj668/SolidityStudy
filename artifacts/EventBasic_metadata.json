@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "LogAddress",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "LogMessage",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					}
+				],
+				"name": "LogNumber",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "testEvent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "事件和日志（Events and Logs）详解 1. 什么是事件？    事件是 Solidity 中用于记录合约执行过程中发生的重要操作的机制    事件会被记录到区块链的日志中，但不存储在合约状态中 2. 为什么使用事件？    - 便宜：存储日志比存储状态变量便宜得多（约节省 8 倍 gas）    - 可追踪：前端 DApp 可以监听事件来更新 UI    - 可查询：可以通过事件查询历史操作记录    - 不可篡改：事件一旦记录就无法修改 3. 特点：    - 使用 event 关键字定义    - 使用 emit 关键字触发    - 最多可以有 3 个 indexed 参数（用于过滤和搜索）    - 无法在合约内部读取事件数据    - 事件数据存储在交易日志中",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/知识点/3-函数/9-事件和日志.sol": "EventBasic"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/知识点/3-函数/9-事件和日志.sol": {
+			"keccak256": "0x7f88665a433867daf8f7a9f9164b36835343898583d16eb671aad433d46b2e0b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://655c97df3ff42ac4b932c1157272cfdb615e9616bf977505be71be71aee171fd",
+				"dweb:/ipfs/QmX1i7VcHrkxuw2szyqB9WCZoyCF9PeKU5ew9J3yTrU8bu"
+			]
+		}
+	},
+	"version": 1
+}
